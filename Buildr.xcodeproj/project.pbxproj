@@ -41,17 +41,17 @@
 
 /* Begin PBXFileReference section */
 		4DAB63F4AA3730EE6EB95768 /* Pods-workshop5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workshop5.release.xcconfig"; path = "Pods/Target Support Files/Pods-workshop5/Pods-workshop5.release.xcconfig"; sourceTree = "<group>"; };
-		5BF8F5B01BDE4F60001BB2BD /* workshop5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = workshop5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF8F5B01BDE4F60001BB2BD /* Buildr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Buildr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF8F5B31BDE4F60001BB2BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BF8F5B51BDE4F60001BB2BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5BF8F5B81BDE4F60001BB2BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BF8F5BA1BDE4F60001BB2BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BF8F5BD1BDE4F60001BB2BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BF8F5BF1BDE4F60001BB2BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BF8F5C41BDE4F61001BB2BD /* workshop5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = workshop5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF8F5C41BDE4F61001BB2BD /* Buildr.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Buildr.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF8F5C81BDE4F61001BB2BD /* workshop5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workshop5Tests.swift; sourceTree = "<group>"; };
 		5BF8F5CA1BDE4F61001BB2BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BF8F5CF1BDE4F61001BB2BD /* workshop5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = workshop5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF8F5CF1BDE4F61001BB2BD /* Buildr.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Buildr.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF8F5D31BDE4F61001BB2BD /* workshop5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workshop5UITests.swift; sourceTree = "<group>"; };
 		5BF8F5D51BDE4F61001BB2BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BF8F5E11BDE4F94001BB2BD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -115,9 +115,9 @@
 		5BF8F5B11BDE4F60001BB2BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5BF8F5B01BDE4F60001BB2BD /* workshop5.app */,
-				5BF8F5C41BDE4F61001BB2BD /* workshop5Tests.xctest */,
-				5BF8F5CF1BDE4F61001BB2BD /* workshop5UITests.xctest */,
+				5BF8F5B01BDE4F60001BB2BD /* Buildr.app */,
+				5BF8F5C41BDE4F61001BB2BD /* Buildr.xctest */,
+				5BF8F5CF1BDE4F61001BB2BD /* Buildr.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,9 +170,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5BF8F5AF1BDE4F60001BB2BD /* workshop5 */ = {
+		5BF8F5AF1BDE4F60001BB2BD /* Buildr */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5BF8F5D81BDE4F61001BB2BD /* Build configuration list for PBXNativeTarget "workshop5" */;
+			buildConfigurationList = 5BF8F5D81BDE4F61001BB2BD /* Build configuration list for PBXNativeTarget "Buildr" */;
 			buildPhases = (
 				6338CBA869382F001D0DC3A2 /* Check Pods Manifest.lock */,
 				5BF8F5AC1BDE4F60001BB2BD /* Sources */,
@@ -185,14 +185,14 @@
 			);
 			dependencies = (
 			);
-			name = workshop5;
+			name = Buildr;
 			productName = workshop5;
-			productReference = 5BF8F5B01BDE4F60001BB2BD /* workshop5.app */;
+			productReference = 5BF8F5B01BDE4F60001BB2BD /* Buildr.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5BF8F5C31BDE4F61001BB2BD /* workshop5Tests */ = {
+		5BF8F5C31BDE4F61001BB2BD /* BuildrTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5BF8F5DB1BDE4F61001BB2BD /* Build configuration list for PBXNativeTarget "workshop5Tests" */;
+			buildConfigurationList = 5BF8F5DB1BDE4F61001BB2BD /* Build configuration list for PBXNativeTarget "BuildrTests" */;
 			buildPhases = (
 				5BF8F5C01BDE4F61001BB2BD /* Sources */,
 				5BF8F5C11BDE4F61001BB2BD /* Frameworks */,
@@ -203,14 +203,14 @@
 			dependencies = (
 				5BF8F5C61BDE4F61001BB2BD /* PBXTargetDependency */,
 			);
-			name = workshop5Tests;
+			name = BuildrTests;
 			productName = workshop5Tests;
-			productReference = 5BF8F5C41BDE4F61001BB2BD /* workshop5Tests.xctest */;
+			productReference = 5BF8F5C41BDE4F61001BB2BD /* Buildr.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5BF8F5CE1BDE4F61001BB2BD /* workshop5UITests */ = {
+		5BF8F5CE1BDE4F61001BB2BD /* BuildrUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5BF8F5DE1BDE4F61001BB2BD /* Build configuration list for PBXNativeTarget "workshop5UITests" */;
+			buildConfigurationList = 5BF8F5DE1BDE4F61001BB2BD /* Build configuration list for PBXNativeTarget "BuildrUITests" */;
 			buildPhases = (
 				5BF8F5CB1BDE4F61001BB2BD /* Sources */,
 				5BF8F5CC1BDE4F61001BB2BD /* Frameworks */,
@@ -221,9 +221,9 @@
 			dependencies = (
 				5BF8F5D11BDE4F61001BB2BD /* PBXTargetDependency */,
 			);
-			name = workshop5UITests;
+			name = BuildrUITests;
 			productName = workshop5UITests;
-			productReference = 5BF8F5CF1BDE4F61001BB2BD /* workshop5UITests.xctest */;
+			productReference = 5BF8F5CF1BDE4F61001BB2BD /* Buildr.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -248,7 +248,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5BF8F5AB1BDE4F60001BB2BD /* Build configuration list for PBXProject "workshop5" */;
+			buildConfigurationList = 5BF8F5AB1BDE4F60001BB2BD /* Build configuration list for PBXProject "Buildr" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -261,9 +261,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5BF8F5AF1BDE4F60001BB2BD /* workshop5 */,
-				5BF8F5C31BDE4F61001BB2BD /* workshop5Tests */,
-				5BF8F5CE1BDE4F61001BB2BD /* workshop5UITests */,
+				5BF8F5AF1BDE4F60001BB2BD /* Buildr */,
+				5BF8F5C31BDE4F61001BB2BD /* BuildrTests */,
+				5BF8F5CE1BDE4F61001BB2BD /* BuildrUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -378,12 +378,12 @@
 /* Begin PBXTargetDependency section */
 		5BF8F5C61BDE4F61001BB2BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5BF8F5AF1BDE4F60001BB2BD /* workshop5 */;
+			target = 5BF8F5AF1BDE4F60001BB2BD /* Buildr */;
 			targetProxy = 5BF8F5C51BDE4F61001BB2BD /* PBXContainerItemProxy */;
 		};
 		5BF8F5D11BDE4F61001BB2BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5BF8F5AF1BDE4F60001BB2BD /* workshop5 */;
+			target = 5BF8F5AF1BDE4F60001BB2BD /* Buildr */;
 			targetProxy = 5BF8F5D01BDE4F61001BB2BD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -499,7 +499,7 @@
 				INFOPLIST_FILE = workshop5/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = haleadam.workshop5;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Buildr;
 			};
 			name = Debug;
 		};
@@ -511,7 +511,7 @@
 				INFOPLIST_FILE = workshop5/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = haleadam.workshop5;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Buildr;
 			};
 			name = Release;
 		};
@@ -522,8 +522,8 @@
 				INFOPLIST_FILE = workshop5Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = haleadam.workshop5Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/workshop5.app/workshop5";
+				PRODUCT_NAME = Buildr;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Buildr.app/Buildr";
 			};
 			name = Debug;
 		};
@@ -534,8 +534,8 @@
 				INFOPLIST_FILE = workshop5Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = haleadam.workshop5Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/workshop5.app/workshop5";
+				PRODUCT_NAME = Buildr;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Buildr.app/Buildr";
 			};
 			name = Release;
 		};
@@ -545,7 +545,7 @@
 				INFOPLIST_FILE = workshop5UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = haleadam.workshop5UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Buildr;
 				TEST_TARGET_NAME = workshop5;
 				USES_XCTRUNNER = YES;
 			};
@@ -557,7 +557,7 @@
 				INFOPLIST_FILE = workshop5UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = haleadam.workshop5UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Buildr;
 				TEST_TARGET_NAME = workshop5;
 				USES_XCTRUNNER = YES;
 			};
@@ -566,7 +566,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5BF8F5AB1BDE4F60001BB2BD /* Build configuration list for PBXProject "workshop5" */ = {
+		5BF8F5AB1BDE4F60001BB2BD /* Build configuration list for PBXProject "Buildr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5BF8F5D61BDE4F61001BB2BD /* Debug */,
@@ -575,7 +575,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5BF8F5D81BDE4F61001BB2BD /* Build configuration list for PBXNativeTarget "workshop5" */ = {
+		5BF8F5D81BDE4F61001BB2BD /* Build configuration list for PBXNativeTarget "Buildr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5BF8F5D91BDE4F61001BB2BD /* Debug */,
@@ -584,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5BF8F5DB1BDE4F61001BB2BD /* Build configuration list for PBXNativeTarget "workshop5Tests" */ = {
+		5BF8F5DB1BDE4F61001BB2BD /* Build configuration list for PBXNativeTarget "BuildrTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5BF8F5DC1BDE4F61001BB2BD /* Debug */,
@@ -593,7 +593,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5BF8F5DE1BDE4F61001BB2BD /* Build configuration list for PBXNativeTarget "workshop5UITests" */ = {
+		5BF8F5DE1BDE4F61001BB2BD /* Build configuration list for PBXNativeTarget "BuildrUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5BF8F5DF1BDE4F61001BB2BD /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5BF8F5AF1BDE4F60001BB2BD"
-               BuildableName = "workshop5.app"
-               BlueprintName = "workshop5"
-               ReferencedContainer = "container:workshop5.xcodeproj">
+               BuildableName = "Buildr.app"
+               BlueprintName = "Buildr"
+               ReferencedContainer = "container:Buildr.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5BF8F5C31BDE4F61001BB2BD"
-               BuildableName = "workshop5Tests.xctest"
-               BlueprintName = "workshop5Tests"
-               ReferencedContainer = "container:workshop5.xcodeproj">
+               BuildableName = "Buildr.xctest"
+               BlueprintName = "BuildrTests"
+               ReferencedContainer = "container:Buildr.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5BF8F5CE1BDE4F61001BB2BD"
-               BuildableName = "workshop5UITests.xctest"
-               BlueprintName = "workshop5UITests"
-               ReferencedContainer = "container:workshop5.xcodeproj">
+               BuildableName = "Buildr.xctest"
+               BlueprintName = "BuildrUITests"
+               ReferencedContainer = "container:Buildr.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5BF8F5AF1BDE4F60001BB2BD"
-            BuildableName = "workshop5.app"
-            BlueprintName = "workshop5"
-            ReferencedContainer = "container:workshop5.xcodeproj">
+            BuildableName = "Buildr.app"
+            BlueprintName = "Buildr"
+            ReferencedContainer = "container:Buildr.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5BF8F5AF1BDE4F60001BB2BD"
-            BuildableName = "workshop5.app"
-            BlueprintName = "workshop5"
-            ReferencedContainer = "container:workshop5.xcodeproj">
+            BuildableName = "Buildr.app"
+            BlueprintName = "Buildr"
+            ReferencedContainer = "container:Buildr.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5BF8F5AF1BDE4F60001BB2BD"
-            BuildableName = "workshop5.app"
-            BlueprintName = "workshop5"
-            ReferencedContainer = "container:workshop5.xcodeproj">
+            BuildableName = "Buildr.app"
+            BlueprintName = "Buildr"
+            ReferencedContainer = "container:Buildr.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

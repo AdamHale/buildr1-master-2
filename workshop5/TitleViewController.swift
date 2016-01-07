@@ -8,6 +8,8 @@ class TitleViewController: UIViewController{
     @IBOutlet weak var background: UIImageView!
   
     @IBOutlet weak var mockupImage1: UIImageView!
+    // image reference: MeiLoci, 2014. Bournemouth Pier Approach [photograph] Cornwall: MeiLoci Architects LTD. Available from http://www.meiloci.co.uk/portfolio/bournemouth-pier-approach/ [accessed 3 december 2015]
+    
 
     @IBOutlet weak var Text1: UITextView!
     
